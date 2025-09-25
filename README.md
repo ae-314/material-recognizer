@@ -1,6 +1,10 @@
 # material-recognizer
 Material recognition &amp; semantic texture retrieval with CLIP RN50 + Spark ML (OvR LinearSVC), tracked in MLflow.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iBX3A4-GTIHQWBkqZrYjXbwVeZT-v4rq)
+
+
+
 # Abstract
 We build a material recognition and semantic retrieval pipeline over large texture corpora using **CLIP RN50** embeddings and a **linear head** trained in **Apache Spark**. Images from **MINC-2500** (23 material classes) and **DTD** (47 describable attributes) are embedded into a 1024-D space. A **One-vs-Rest LinearSVC** head trained on MINC achieves **0.7057 accuracy** and **0.7008 weighted-F1** on a held-out split. We also demonstrate **text→image retrieval** by encoding natural-language prompts with CLIP’s text encoder and ranking images by cosine similarity, producing contact sheets for artist support and reference search.
 
