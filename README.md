@@ -1,5 +1,6 @@
 # material-recognizer
 Material recognition &amp; semantic texture retrieval with CLIP RN50 + Spark ML (OvR LinearSVC), tracked in MLflow.
+Please open the noteobok directly in Google Colab to view: 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iBX3A4-GTIHQWBkqZrYjXbwVeZT-v4rq)
 
